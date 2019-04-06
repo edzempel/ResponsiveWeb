@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example title</title>
+	<!-- Linked style sheet -->
+	<link type="text/css" media="all" href="example-style.css" rel="stylesheet" />
+</head>
+<body>
+<h1>Page title</h1>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus risus leo, ac pharetra risus tempor non. Suspendisse ac rutrum diam. Nunc vestibulum orci at elementum euismod. Donec elementum dolor eget massa tristique, eu ultricies libero vehicula. Cras quis massa eros. Nam porta cursus lectus, vitae blandit lorem lobortis in. Cras eget fringilla felis, id volutpat lacus. Cras fermentum sodales nisl nec egestas. Aliquam congue maximus est, pretium lacinia nibh finibus id. Praesent nec nisl vel eros pretium sollicitudin ac a tortor. Duis elementum sapien ac dui aliquam sodales. Nullam lacinia est et erat pulvinar, non porttitor ante feugiat. Donec non porta risus. Praesent pulvinar fringilla libero scelerisque eleifend. Duis eget odio sit amet elit consectetur vestibulum vitae eu velit. Mauris sem sem, commodo vitae ipsum quis, placerat porttitor nisl.
+
+Maecenas facilisis augue id eleifend cursus. Sed lacinia felis eget nisl maximus, vitae sagittis arcu elementum. Pellentesque elementum posuere dictum. Phasellus rutrum dolor lectus, et interdum sapien tincidunt ut. Etiam auctor ante ut ipsum iaculis euismod. Aliquam ac laoreet nisl, at pharetra ipsum. Cras porttitor quam sed felis maximus commodo. Quisque eget blandit massa. Vivamus at nisl id neque ornare accumsan.
+
+Nunc cursus elementum dolor semper finibus. Fusce aliquam, risus ornare mattis semper, odio erat mollis felis, id fringilla est mauris eget neque. Nunc pharetra, dolor eu bibendum semper, quam neque lobortis sem, eget sollicitudin lorem nunc sit amet purus. Donec convallis neque sed quam scelerisque, ac tempus nibh pharetra. Morbi eleifend sapien auctor lectus tincidunt, id varius orci egestas. Maecenas tempor porta nisl, vitae aliquet risus ullamcorper tempor. Donec aliquam orci bibendum leo lobortis, in efficitur libero aliquet. Nulla tincidunt faucibus tellus, ac tempor purus maximus sed. Pellentesque suscipit, arcu at volutpat dictum, turpis orci porta eros, vitae tempor felis felis sed nisl. Nulla posuere eu risus eu feugiat. Duis placerat diam vitae volutpat dictum.
+
+Mauris volutpat mollis diam sit amet pellentesque. Vestibulum elementum fringilla felis at elementum. Morbi pellentesque ipsum in turpis feugiat tincidunt. Morbi mollis dapibus commodo. Aliquam tempus justo quis odio fermentum iaculis. Maecenas nec dictum purus. Maecenas ultrices leo urna, id varius lacus varius eu. Suspendisse volutpat turpis nec fermentum ultricies. Duis eu commodo velit. Vivamus vel consectetur sem. Pellentesque dolor massa, ultrices ac volutpat elementum, ultricies a turpis. Donec sit amet placerat velit. Cras sit amet turpis arcu.
+
+Fusce pulvinar lectus eu luctus vulputate. Sed id eros egestas mauris dapibus varius vitae ac tortor. Donec vehicula dolor nisl, eu tincidunt diam consequat non. Pellentesque dolor diam, hendrerit eu nunc a, luctus lacinia felis. Fusce in elementum justo. Pellentesque hendrerit sagittis lobortis. Integer suscipit dictum nunc, eu laoreet mauris ornare vitae. Nulla odio turpis, viverra ut rutrum id, ultrices blandit ligula. In in ultrices velit. Nulla varius eget erat sit amet bibendum. Nulla facilisi.
+</p>
+<div id="example-javascript">
+<h2>Example javascript</h2>
+	<button id="example-button" onclick="exampleAlert();" type="button" value="example-value">Example button</button>
+	<script>
+		//example inline script
+		function exampleAlert(){
+			alert("Example alert!");
+		}
+	</script>
+
+	
+</div>
+
+<div id="example-form">
+<h2>Example form</h2>
+	<form action="example-result.html" method="get">
+		<p>
+			<label for="first-name">First name</label>
+			<input title="First name" id="first-name" type="text" name="first-name" spellcheck="false" required  placeholder="first name"/>
+		</p>
+		<p>
+			<label for="last-name">Last name</label>
+			<input title="Last name" id="last-name" type="text" name="last-name" spellcheck="false" required placeholder="last name"/>
+		</p>	
+			<input class="button" type="submit" value="Submit"/>
+	</form>
+</div>
+
+<div id="linked-javascript">
+	<!-- Linked javascript file -->
+	<!-- It is best to have the linked file at the bottom so it doesn't run until everything else has loaded. -->
+		<!-- HTML4 and (x)HTML -->
+			<!-- <script type="text/javascript" src="javascript.js"></script> -->
+
+		<!-- HTML5 -->
+			<script src="javascript.js"></script>
+</div>
+</body>
+</html>
